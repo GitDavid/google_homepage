@@ -1,0 +1,21 @@
+#searcharea {
+    display: block;
+    margin: auto;
+    width: 500px;
+}
+
+img {
+    display: block;
+    width: 272px;
+    margin: auto;
+}
+
+form, #searchbox {
+    display: block;
+    width: 500px;
+    margin: auto;
+}
+
+.buttons {
+    text-align: center;
+}
