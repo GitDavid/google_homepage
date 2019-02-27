@@ -1,8 +1,31 @@
-#searcharea {
-    display: block;
-    margin: auto;
-    width: 500px;
+#navtop {
+    display: flex;
+    /* justify-content: space-between; */
 }
+
+nav>div {
+    flex-basis: auto;
+    padding: 20px;
+}
+
+nav>.topright {
+    margin-left: auto;
+}
+
+#searcharea {
+    /* display: block; */
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 500px;
+    height: 200px;
+    
+    /* top: 50%; */
+}
+
 
 img {
     display: block;
@@ -18,4 +41,21 @@ form, #searchbox {
 
 .buttons {
     text-align: center;
+}
+
+
+#navbottom {
+    display: flex;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+footer>div {
+    flex-basis: auto;
+    padding: 20px;
+}
+
+footer>.bottomright {
+    margin-left: auto;
 }
